@@ -7,7 +7,7 @@ if (!WebAssembly.instantiateStreaming) { // polyfill
 const go = new Go();
 var mod, inst;
 WebAssembly.instantiateStreaming(
-    fetch("chip8.wasm"), go.importObject).then((result) => {
+    fetch("go.wasm"), go.importObject).then((result) => {
         mod = result.module;
         inst = result.instance;
         document.getElementById("runButton").disabled = false;

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "go build -o .\\public\\chip8.wasm .\\main.go && node .",
-    "build": "go build -o .\\public\\chip8.wasm .\\main.go"
+    "start": "go build -o .\\public\\go.wasm .\\main.go && node .",
+    "build": "go build -o .\\public\\go.wasm .\\main.go"
   },
   "author": "Julien Regnault",
   "license": "ISC",
